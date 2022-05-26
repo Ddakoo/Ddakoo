@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" > 
+<title>Timeout</title>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<link rel="stylesheet" type="text/css" href="/applynow/zkau/web/dc48d678/zul/css/zk.wcs"/>
+<link rel="stylesheet" type="text/css" href="/pa/components/modules/abpa-wizard-module/1.0/style/boa-base.css"/>
+<link rel="stylesheet" type="text/css" href="/pa/components/modules/abpa-wizard-module/1.0/style/bcs-cdp.css"/>
+
+<script type="text/javascript" src="/applynow/zkau/web/dc48d678/js/zk.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="/applynow/zkau/web/dc48d678/js/com.bofa.ecom.purchasing.common.ui.zk.wpd" charset="UTF-8"></script>
+<!-- ZK 6.5.4 2013092409 -->
+<script type="text/javascript">
+				zAu.cmd0.showBusy = function () {return false;}
+				zk.afterLoad("zk", function ()
+				                {
+				                    zjq._useQS = function (reqInf) {
+				                                                        return false;
+				                                                   };
+				                }
+				             );
+			</script>
+<link href="/applynow/favicon.go" rel="shortcut icon" type="image/ico"/>
+<link rel="stylesheet" href="/pa/components/modules/abpa-wizard-module-2.0/1.0/stylesheets/libs/normalize.css"/>
+<link rel="stylesheet" href="/pa/components/modules/abpa-wizard-module-2.0/1.0/stylesheets/libs/foundation.css"/>
+<link rel="stylesheet" href="/pa/components/modules/abpa-wizard-module-2.0/1.0/stylesheets/global.css"/>
+<script src="/pa/global-assets/external/coremetrics/hp/eluminate.js" type="text/javascript">
+</script>
+<script src="/pa/global-assets/external/coremetrics/hp/cmdatatagutils.js" type="text/javascript">
+</script>
+<script src="/pa/components/modules/abpa-wizard-module/1.0/script/modules/coremetrics-abpa.js" type="text/javascript">
+</script>
+<script src="/pa/components/modules/tag-manager-module/1.1/script/monitor.js" type="text/javascript">
+</script>
+<script src="https://www.bankofamerica.com/pa/components/modules/customer-feedback-module/33.0/script/customer-feedback-module.js" type="text/javascript">
+</script>
+<script src="/pa/components/modules/abpa-wizard-module-2.0/1.0/javascripts/libs/jquery-3.5.1.min.js" type="text/javascript">
+</script>
+<script src="/pa/components/modules/abpa-wizard-module-2.0/1.0/javascripts/global.js" type="text/javascript">
+</script>
+</head>
+<body>
+<div id="rJhA_" class="z-temp"><div id="zk_proc" class="z-loading"><div class="z-loading-indicator"><span class="z-loading-icon"></span>Processing...</div></div></div>
+<script class="z-runonce" type="text/javascript">
+zk.pi=1;zkmx(
+[0,'rJhA_',{dt:'7703412756848159666',cu:'/applynow',uu:'/applynow/zkau',ru:'/g2/Common/Sys/ResponsiveTimeout.zul'},[
+['zul.wgt.Div','rJhA0',{prolog:'\n\t\n\t'},[
+['zk.Native','rJhA1',{prolog:'\n\t\n\t\n\t\t<div class="header">\n\t\t\t',epilog:'\n\t\t</div>'},[
+['zk.Native','rJhA2',{prolog:'\n\t\t\t'},[]],
+['zul.wgt.Div','rJhA3',{},[
+['zk.Native','rJhA4',{prolog:'\n\t\t\t\t<div zclass="page-container" class="row header_branding-bar">\n\t\t\t\t\t<div class="small-12 columns">\n\t\t\t\t\t  \n                      <span>\n                         <img class="image-logo" src="/pa/components/modules/abpa-wizard-module-2.0/1.0/images/BankofAmerica_new_logo.svg" alt="Bank of America"/>\n                       </span>\n\t\t\t\t\t</div>\n\t\t\t\t',epilog:'</div>'},[]],
+['zul.wgt.Div','rJhA5',{prolog:'\n\t\t\t\t'},[
+['zk.Native','rJhA6',{prolog:'\n\t\t\t\t\t<div class="row header_title-bar">\n\t\t\t\t\t\t<div class="small-12 columns">\n\t\t\t\t\t\t\t<h1>\n\t\t\t\t\t\t\t\t<span class="show-for-large-up">\n\t\t\t\t\t\t\t\t\tYour Application\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t<span class="show-for-medium-down">\n\t\t\t\t\t\t\t\t\tYour Application\n\t\t\t\t\t\t\t\t</span>\n\t\n\t\n\t\t\t\t\t\t\t</h1>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t',epilog:'</div>'},[]]]]]]]],
+['zul.wgt.Div','rJhA7',{sclass:'row',prolog:'\n\t\t'},[
+['zk.Native','rJhA8',{id:'timeoutContent',prolog:'\n\t\t\t<div class="small-12 large-10 columns" id="timeoutContent">\n\t\t\t\t<h2 class="h2--v2"></h2>\n\t\t\t\tFor security reasons, sessions end after $MaxTimeout$ minutes of inactivity. Your session has timed out, and you\u2019ll have to start the application again.\n\t\t\t',epilog:'</div>'},[]]]],
+['zk.Native','rJhA9',{prolog:'\n\t\t<span>',epilog:'</span>'},[]],
+['zul.wgt.Div','rJhAa',{zclass:'row',prolog:'\n\n\n\t\t'},[
+['zul.wgt.Div','rJhAb',{prolog:'\n\t\t\t'},[
+['zk.Native','rJhAc',{prolog:'\n\t\t\t\t<div class="small-12 columns">\n\t\t\t\t\t',epilog:'\n\t\t\t\t</div>'},[
+['zul.wgt.A','rJhAd',{$onClick:true,domExtraAttrs:{'name':'btn_continue'
+},zclass:'button primary small',label:'Continue'},[]]]]]]]],
+['zk.Native','rJhAe',{prolog:'\n\t\t\t\n\t\t\t\n\t\t<div class="footer">\n\t\t\t<div class="row">\n\t\t\t\t<div class="small-12 columns">\n\t\t\t\t\t<p class="privacy-text">\n\t\t\t\t\t\t',epilog:'\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a class="privacy-text_link" title="Privacy and Security. Link Opens in new window" name="PrivacyAndSecurity" onclick="displayPopup(\'https://www.bankofamerica.com/privacy/index.jsp\');return false;" href="javascript:void(0);">\n\t\t\t\t\t\t\tPrivacy & Security\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</p>\n\t\t\t\t\t<p class="copyright-text">\n\t\t\t\t\t\tBank of America, N.A. Member FDIC.\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a class="copyright-text_link" name="EqualHousingLender" onclick="displayPopup(\'https://www.bankofamerica.com/help/equalhousing_popup.go\');return false;" href="javascript:void(0);" title="Equal Housing Lender information. Link opens in new window.">\n\t\t\t\t\t\t\tEqual Housing Lender\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</p>\n\t\t\t\t\t<p class="copyright-text">\n\t\t\t\t\t\t&copy; 2022 Bank of\n\t\t\t\t\t\tAmerica Corporation. All rights reserved.\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>'},[
+['zul.wgt.Span','rJhAf',{},[
+['zk.Native','rJhAg',{prolog:'\n\t\t\t\t\t\t\t<a name="link_shareWebsiteFeedback" class="privacy-text_link" href="javascript:void(0);" onclick="oo_feedback.show()" title="Feedback">\n\t\t\t\t\t\t\t\tShare website feedback\n\t\t\t\t\t\t\t',epilog:'</a>'},[]],
+['zul.wgt.Label','rJhAh',{value:'\n\t\t\t\t\t\t\t|\n\t\t\t\t\t\t'},[]]]]]]]],
+['zul.utl.Script','rJhAi',{content:function(){
+
+			window.onload = onloadTimeout();
+			function onloadTimeout() {
+				var maxTimeout = getURLParameter('id') || '30';
+				$('#timeoutContent').html($('#timeoutContent').html().replace("$MaxTimeout$", maxTimeout));
+			}
+
+			function getURLParameter(sParam)
+			{
+			    var sPageURL = window.location.search.substring(1);
+			    var sParameterName = sPageURL.split('=');
+	            return sParameterName[1];
+			}
+		
+		
+}},[]]]]);
+
+</script>
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript>
+
+</body>
+</html>
+https://www.bankofamerica.com/pa/components/modules/customer-feedback-module/33.0/script/customer-feedback-module.js
